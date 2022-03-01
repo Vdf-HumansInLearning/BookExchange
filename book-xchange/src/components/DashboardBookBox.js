@@ -22,7 +22,7 @@ function DashboardBookBox() {
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                     {Array.from(Array(9)).map((_, index) => (
                         <Grid sx={{width: 150, }} item xs={4} sm={4} md={4} key={index}>
-                            <Link style={{textDecoration: 'none'}} to="/addbook">
+                            <Link style={{textDecoration: 'none'}} to="/details">
                             <Item sx={{height: 250}}>Book Cover</Item>
                             </Link>
                         </Grid>
