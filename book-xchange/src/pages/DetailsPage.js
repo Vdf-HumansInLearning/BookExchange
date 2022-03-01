@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function DetailsPage() {
   return (
-    <div>DetailsPage</div>
+    <div>
+        <Navbar></Navbar>
+    </div>
   )
 }
 

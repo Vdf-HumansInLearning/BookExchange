@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function MyCartPage() {
   return (
-    <div>MyCartPage</div>
+    <div>
+        <Navbar></Navbar>
+    </div>
   )
 }
 

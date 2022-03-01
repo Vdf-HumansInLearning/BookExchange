@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function AdminPage() {
   return (
-    <div>AdminPage</div>
+    <div>
+        <Navbar></Navbar>
+    </div>
   )
 }
 
