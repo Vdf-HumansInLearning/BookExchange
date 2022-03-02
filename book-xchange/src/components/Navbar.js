@@ -197,12 +197,11 @@ const Navbar = () => {
                             onClose={handleCloseUserMenu}
                         >
                             {settings.map((setting, index) => (
-                                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                    <Link to={settingsRoutes[index]} key={setting} style={{ textDecoration: 'none' }}>
-                                        <Typography textAlign="center">{setting}</Typography>
-                                    </Link>
-
-                                </MenuItem>
+                                <Link to={settingsRoutes[index]} key={setting} style={{ textDecoration: 'none' }}>
+                                    <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                                            <Typography textAlign="center">{setting}</Typography>
+                                    </MenuItem>
+                                </Link>
                             ))}
                         </Menu>
                     </Box>
